@@ -36,3 +36,6 @@ LC_ALL=C.UTF-8
     cd /Canvas && wget https://github.com/Illumina/canvas/releases/download/1.35.1.1316%2Bmaster/Canvas-1.35.1.1316.master_x64.tar.gz
     tar -xvf /Canvas/Canvas-1.35.1.1316.master_x64.tar.gz
     mv /Canvas/Canvas-1.35.1.1316+master_x64/* /Canvas/
+    chmod +x /Canvas/tabix
+    chmod +x /Canvas/bedGraphToBigWig
+    
